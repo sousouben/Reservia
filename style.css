@@ -179,12 +179,21 @@ a
 
 /* section hebergement et populaires */
 
+.main
+{
+    display:flex;
+    flex-direction: row;
+  
+}
+
+/* section hebergement*/
+
 #room-s
 {
   display: flex;
   background-color: #F2F2F2;
     border-radius: 15px;
-    width: 55%;
+    width: 50%;
     padding: 2%;
 flex-direction: row;
 }
@@ -194,8 +203,7 @@ h2
     display: block;
     font-weight: bold;
     font-size: 100%;
-    
-}
+   }
 
 .room
 {
@@ -211,116 +219,64 @@ h2
 
 .chambre-1,.chambre-2,.chambre-3,.chambre-4,.chambre-5,.chambre-6
 {
-    display:flex;
+    display:block;
     background-color: white;
     border-radius: 15px;
     border: 5px solid white;
     box-shadow: 15px 14px 10px 10px #F2F2F2 ;
-    margin: 10px
+    margin: 2%;
+    text-align: center;
+    width: 27%;
 }
 
-img.room1
+img.room1,img.room2,img.room3,img.room4,img.room5,img.room6
 {
     margin: 5px;
     border-radius: 15px;
-   width: 10%;
- 
-}
+   width: 60%;
+ }
 
-img.room2
-{
-    margin: 10px;
-    border-radius: 10px;
-   width: 10%;
 
-}
-
-img.room3
-{
-    margin: 10px;
-    border-radius: 10px;
-   width:10%;
- 
-}
-
-img.room4
-{
-    margin: 10px;
-    border-radius: 10px;
-    width: 10%;
-
-}
-
-img.room5
-{
-    margin: 10px;
-    border-radius: 10px;
-    width: 10%;
-
-}
-
-img.room6
-{
-    margin: 10px;
-    border-radius: 10px;
-    width: 10%;
-
-}
+/* section populaire*/
 
 #populaire
 {
-    display: flex;
+    display: block;
     background-color: #F2F2F2;
     border-radius: 15px;
-    width:49%;
+    width:29%;
     padding: 2%;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 1%;
+    
 }
 
-.roompop1 img
+.roompop1 img,.roompop2 img,.roompop3 img
 {
     margin: 10px;
     border-radius: 10px;
-   width: 10%;
-
-
-}
-
-.roompop2 img
-{
-    margin: 10px;
-    border-radius: 10px;
-    width: 10%;
-
-}
-
-.roompop3 img
-{
-    margin: 10px;
-    border-radius: 10px;
-    width:10%;
-
+   width: 50%;
 }
 
 .chambre-best1,.chambre-best2,.chambre-best3
 {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 34px;
-    height: 134px;
+    display: block;
+    flex-direction: column;
+    margin-bottom: 9%;
     border-radius: 15px;
     border: 5px solid white;
     background-color: white;
    box-shadow: 15px 14px 42px 32px #F2F2F2 ;
+    width: 83%;
+    text-align: center;
+    text-decoration: center;
 }
-.more
-{
-    
-}
+
 .star
 {
     display: flex;
     text-align: center;
+    color:#0065FC;
    }
 
 /*section activité*/
@@ -329,6 +285,7 @@ figure
 {
     text-align: center
 }
+
 .double
 {
     display: flex;
@@ -338,6 +295,7 @@ figure
     border-radius: 20px;
     border: solid 1px #F2F2F2;
 }
+
 .act1 img
 {  background-color:white;
     border-radius: 20px;
@@ -401,14 +359,13 @@ figure
     width: 100%;
     padding: 3%;
 }
+
 #containerActiv
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-   
+    justify-content: center;   
 }
-
 
 /* footer */
 
@@ -428,9 +385,7 @@ footer
 .Propos
 {
     font-size:70%;
-  
-  
-}
+ }
 
 .Herberg
 {
