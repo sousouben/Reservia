@@ -121,6 +121,7 @@ h3
     flex-direction: row;
     flex-wrap: wrap;
     line-height: 50px;
+    width: 100%;
 }
 
 .filtre
@@ -180,31 +181,28 @@ a
 
 #room-s
 {
-    margin-left: 10px;
-  justify-content: center;
-display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: #F2F2F2;
+  display: flex;
+  background-color: #F2F2F2;
     border-radius: 15px;
-    width: 60%;
-    padding: 3%;
-  
+    width: 55%;
+    padding: 2%;
+flex-direction: row;
 }
 
 h2
 {
     display: block;
     font-weight: bold;
+    font-size: 100%;
     
 }
 
-.container-room
+.room
 {
     display: block;
 }
 
-.list-chambre
+.container-list-chambre
 {
     display: flex;
     flex-wrap: wrap;
@@ -269,7 +267,15 @@ img.room6
 
 }
 
-
+#populaire
+{
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width:49%;
+    padding: 2%;
+    flex-direction: row;
+}
 
 .roompop1 img
 {
