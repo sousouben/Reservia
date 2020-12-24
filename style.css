@@ -302,14 +302,13 @@ figure
     text-align: center
 }
 
-.double
+.activ1,.activ2,.activ3,.activ4,.activ5,.activ6
 {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     background-color:white;
-    border-radius: 20px;
-    border: solid 1px #F2F2F2;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .act1 img,.act4 img
@@ -332,12 +331,12 @@ figure
 
 .activity
 {
-    margin-left: 10px;
-    display: block;
+   
+    display: flex;
     background-color: white;
-    border-radius: 20px/10px;
-    width: 100%;
-    padding: 3%;
+    padding: 2%;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 #container-Activ
