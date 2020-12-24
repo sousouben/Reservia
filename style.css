@@ -297,23 +297,27 @@ flex-direction: column;
 
 /*section activité*/
 
+.triple1,.triple2
+{
+    display: flex;
+    flex-direction: row;
+}
 figure
 {
     text-align: center
 }
-
-.activ1,.activ2,.activ3,.activ4,.activ5,.activ6
+#container-Activ figure
 {
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
+    display: block;    
+    border:1px solid white;
     border-radius: 15px;
-    border: 1px solid with;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;   
+
 }
 
 .act1 img,.act4 img
-{  background-color:white;
-    border-radius: 20px;
+{  
+    border-radius: 15px;
     border: solid 1px #F2F2F2;
     display: block;
    width: 250px;
@@ -322,11 +326,12 @@ figure
 }
 
 .act2 img,.act3 img,.act5 img,.act6 img
-{
-    margin: 10px;
+{display: block;
+    margin: 15px;
     border-radius: 10px;
      width:250px;
- height:150px; 
+    height:150px; 
+     border: solid 1px #F2F2F2;
 }
 
 .activity
@@ -335,7 +340,6 @@ figure
     display: flex;
     background-color: white;
     padding: 2%;
-    margin: auto;
     flex-wrap: wrap;
 }
 
