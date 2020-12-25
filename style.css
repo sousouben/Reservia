@@ -360,7 +360,8 @@ figure
 
 .row
 {
-    display: contents;
+    display: flex;
+    
 }
 
 /* footer
