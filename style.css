@@ -1,6 +1,7 @@
-/* body */
+/* body 
+ ************/
 
-body
+ body
 {
     font-size: 1rem;
     display: block;
@@ -12,7 +13,8 @@ body
     margin:3%;   
 }
 
-/* header */
+/* header
+ ***************/
 
 .sign
 {
@@ -20,7 +22,7 @@ body
     font-weight: bold;
 }
 
-#menu
+.menu
 {
     flex-direction: row;
       float: right;
@@ -49,14 +51,15 @@ header li
   
 }
 
-/* section filtres*/
+/* section filtres
+ ********************/
 
 h1
 {
    font-size: 119%; 
 }
 
-#cherch
+.cherch
 {
      display: flex;
    flex-wrap: nowrap;
@@ -109,7 +112,7 @@ h3
     margin-right: 30px;
 }
 
-#filter
+.filter
 {
     display: flex;
     
@@ -154,7 +157,7 @@ a
     color: black;
 }
 
-#info 
+.info 
 {
     display:flex;
     flex-direction: row;
@@ -177,20 +180,21 @@ a
     
 }
 
-/* section hebergement et populaires */
+/* section hebergement et populaires
+  ********************/
 
-.main
+#main
 {
     display:flex;
     flex-direction: row;
-    margin: auto;
-    
+    margin: auto;   
   
 }
 
-/* section hebergement*/
+/*section hebergement
+***************************/
 
-#room-s
+.room-s
 {
   display: flex;
   background-color: #F2F2F2;
@@ -240,7 +244,8 @@ img.room1,img.room2,img.room3,img.room4,img.room5,img.room6
  }
 
 
-/* section populaire*/
+/* section populaire
+ ***************************************/
 
 .container-list-pop
 {
@@ -250,7 +255,7 @@ img.room1,img.room2,img.room3,img.room4,img.room5,img.room6
     margin-top: 23px;
   
 }
-#populaire
+.populaire
 {
     display: flex;
   background-color: #F2F2F2;
@@ -295,7 +300,8 @@ flex-direction: column;
     font-size: 50%;    
    }
 
-/*section activité*/
+/*section activité
+**************/
 
 .triple1,.triple2
 {
@@ -306,7 +312,7 @@ figure
 {
     text-align: center
 }
-#container-Activ figure
+.container-Activ figure
 {
     display: block;    
     border:1px solid white;
@@ -326,7 +332,8 @@ figure
 }
 
 .act2 img,.act3 img,.act5 img,.act6 img
-{display: block;
+{
+    display: block;
     margin: 15px;
     border-radius: 10px;
      width:250px;
@@ -334,7 +341,7 @@ figure
      border: solid 1px #F2F2F2;
 }
 
-.activity
+#activity
 {
    
     display: flex;
@@ -343,7 +350,7 @@ figure
     flex-wrap: wrap;
 }
 
-#container-Activ
+.container-Activ
 {
     display: flex;
     flex-wrap: wrap;
@@ -351,7 +358,8 @@ figure
    
 }
 
-/* footer */
+/* footer
+*********************** */
 
 footer
 {
@@ -379,6 +387,9 @@ footer h3
     text-align: left;
     font-size: 80%;
 }
+
+/*@media
+**********************/
 
 @media screen and (max-width:570px)
 {
