@@ -201,7 +201,7 @@ a
   background-color: #F2F2F2;
     border-radius: 15px;
     width: 70%;
-    height: 605px;
+    height: 457px;
     padding: 2%;
 flex-direction: row;
 }
@@ -227,23 +227,74 @@ h2
 
 .chambre-1,.chambre-2,.chambre-3,.chambre-4,.chambre-5,.chambre-6
 {
-    display:block;
-    background-color: white;
+    display:block;   
+    background-color:white;
     border-radius: 15px;
     border: 5px solid white;
     box-shadow: 15px 14px 10px 10px #F2F2F2 ;
     margin: 2%;
     text-align: center;
     width: 27%;
+    height: 147px;
+
 }
 
-img.room1,img.room2,img.room3,img.room4,img.room5,img.room6
+
+
+
+.chambre-1
 {
-  display: block;
-    border-radius: 15px;
-   width: 144px;
-   height: 84px;
- }
+    
+    background-image: url(hebergements/4_small/auberge%20cannebi%C3%A8re.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.chambre-2
+{
+   
+    background-image: url(hebergements/4_small/hotel%20port.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.chambre-3
+{
+    
+    background-image: url(hebergements/4_small/mouette.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.chambre-4
+{
+    
+    background-image: url(hebergements/4_small/hotel%20mer.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.chambre-5
+{
+    
+    background-image: url(hebergements/4_small/panier.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.chambre-6
+{
+    
+    background-image: url(hebergements/4_small/amina.jpg);
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
 
 
 /* section populaire
@@ -263,25 +314,41 @@ img.room1,img.room2,img.room3,img.room4,img.room5,img.room6
   background-color: #F2F2F2;
     border-radius: 15px;
     width: 28%;
-    height: 605px;
+    height: 457px;
     padding: 2%;
 flex-direction: column;
     margin-left: 2%;   
    
 }
 
-.roompop1 img,.roompop2 img,.roompop3 img
+
+.chambre-best1
 {
-    display:block;
-    background-color: white;
-    border-radius: 15px;
-    border: 5px solid white;
-    box-shadow: 15px 14px 10px 10px #F2F2F2 ;
-    width: 42%;
     
+    background-image: url(hebergements/4_small/hotel%20soleil%20matin.jpg);
+    background-position: left;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
 }
 
-.chambre-best1,.chambre-best2,.chambre-best3
+.chambre-best2
+{
+    background-image: url("hebergements/4_small/coeur%20de%20l'eau.jpg");
+    background-position: left;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.chambre-best3
+{
+   
+    background-image: url(hebergements/4_small/tout%20bleu%20et%20blanc.jpg);
+    background-position: left;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.chambre-best1,.chambre-best2, .chambre-best3
 {
    display:block;
     background-color: white;
@@ -290,8 +357,8 @@ flex-direction: column;
     box-shadow: 15px 14px 10px 10px #F2F2F2 ;
     margin: 2%;
     text-align: center;
-    width: 98%;    
-    height: 158px;  
+    width: 90%;    
+    height: 106px;  
 }
 
 .star
