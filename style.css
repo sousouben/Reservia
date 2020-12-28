@@ -87,7 +87,7 @@ h1
 {
     border-top:2px solid #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
-    height: 49px;
+    height: 45px;
     width: 18%;
     text-align: center;
     font-weight: bold;
@@ -213,6 +213,16 @@ h2
     font-size: 100%;
    }
 
+.room-s1, .room-s2, .room-s3, .room-s4, .room-s5, .room-s6
+{
+    display: block;
+    margin-top: 48%;
+    font-size: 88%;
+    justify-content: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
 .room
 {
     display: block;
@@ -238,9 +248,6 @@ h2
     height: 147px;
 
 }
-
-
-
 
 .chambre-1
 {
@@ -321,10 +328,15 @@ flex-direction: column;
    
 }
 
+.pop1, .pop2, .pop3
+{
+    display: block;
+    margin-left: 54%;
+    font-size: 79%;        
+}
 
 .chambre-best1
-{
-    
+{    
     background-image: url(hebergements/4_small/hotel%20soleil%20matin.jpg);
     background-position: left;
     background-size: 50% 100%;
@@ -381,7 +393,8 @@ figure
     display: block;    
     border:1px solid white;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;   
+    box-shadow: 2px 2px 2px 2px #F2F2F2;  
+    width: 84%;
 
 }
 
@@ -398,11 +411,10 @@ figure
 .act2 img,.act3 img,.act5 img,.act6 img
 {
     display: block;
-    margin: 15px;
-    border-radius: 10px;
-     width:96%;
-    height:134px; 
-     border: solid 1px #F2F2F2;
+    border-radius: 15px;
+    width:100%;
+    height:156px; 
+    border: solid 1px #F2F2F2;
 
 }
 
@@ -451,6 +463,11 @@ footer h3
 {
     text-align: left;
     font-size: 80%;
+}
+
+footer a:hover
+{
+    color: #0065FC;
 }
 
 /*@media
