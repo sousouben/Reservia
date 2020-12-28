@@ -8,9 +8,15 @@
     font-family: 'Raleway', sans-serif;  
 }
 
+
 #contener
 {
     margin:3%;   
+}
+h6
+{
+    visibility: hidden;
+    margin: 0px;
 }
 
 /* header
@@ -34,8 +40,9 @@
 header a:hover
 {
     text-decoration: overline;
-   color: #0065FC; 
+    color: #0065FC; 
     padding:4%;
+    
 }
 
 ul
@@ -139,9 +146,9 @@ h3
     padding-right: 3%;
     margin-right: 5%;
     line-height: inherit;
-    border-radius: 50px;
-    margin-block: 1%;
+    border-radius: 50px;   
 }
+
 
 .filtre:hover
 {
@@ -209,7 +216,7 @@ a
   background-color: #F2F2F2;
     border-radius: 15px;
     width: 70%;
-    height: 457px;
+    height: 481px;
     padding: 2%;
 flex-direction: row;
 }
@@ -234,6 +241,7 @@ h2
 .room
 {
     display: block;
+    margin-top: 2%;
 }
 
 .container-list-chambre
@@ -241,6 +249,7 @@ h2
     display: flex;
     flex-wrap: wrap;
     margin-top: 23px;
+    width: 100%;
 }
 
 .chambre-1,.chambre-2,.chambre-3,.chambre-4,.chambre-5,.chambre-6
@@ -311,6 +320,11 @@ h2
     background-repeat: no-repeat;
 }
 
+.more   
+{
+    font-weight: bold;
+}
+
 
 /* section populaire
  ***************************************/
@@ -329,7 +343,7 @@ h2
   background-color: #F2F2F2;
     border-radius: 15px;
     width: 28%;
-    height: 457px;
+    height: 481px;
     padding: 2%;
 flex-direction: column;
     margin-left: 2%;   
@@ -471,6 +485,7 @@ footer h3
 {
     text-align: left;
     font-size: 80%;
+    font-weight: bold;
 }
 
 footer a:hover
