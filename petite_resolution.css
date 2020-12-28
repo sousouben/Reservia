@@ -1,15 +1,57 @@
 /*@media
 **********************/
 
-@media screen and (max-width: 1280px)
+@media screen and (max-width:768px)
 {
     #body
     {
         max-width: 1280px;
         width: 100%;
-        margin: 2px;
-       
+        margin: 2px;           
+    }    
+    
+    .list-filter
+    {
+        width: 100%;        
     }
+    
+    .room-s
+    {
+        width: 100%;
+    }
+    
+    #main
+    {
+        display: block;
+    }
+    
+    .populaire
+    {
+        width: 100%;
+    }
+    
+    .wrapper
+    {
+        width: 100%;
+        display: block;
+    }
+    
+    footer
+    {
+        display: block;
+        width: 100%;       
+    }
+    
+    footer nav 
+    {
+        text-align: center;
+    }
+    
+    footer h3
+    {
+        text-align: center;
+    }   
+    
 }
 
 
