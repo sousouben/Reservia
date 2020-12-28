@@ -8,8 +8,8 @@
         max-width: 1280px;
         width: 100%;
         margin: 2px;           
-    }    
-    
+    } 
+  
     .list-filter
     {
         width: 100%;        
@@ -24,6 +24,23 @@
     {
         display: block;
     }
+    
+    .container-list-chambre
+    {
+        display: block;        
+        width: 100%;
+    }
+    
+    .chambre-1, .chambre-2, .chambre-3, .chambre-4, .chambre-5, .chambre-6
+    {
+        width: 100%;
+    }
+    
+    .room-s
+    {
+        display: block;
+        width: 100%;
+    }   
     
     .populaire
     {
@@ -44,12 +61,12 @@
     
     footer nav 
     {
-        text-align: center;
+        text-align:left;
     }
     
     footer h3
     {
-        text-align: center;
+        text-align: left;
     }   
     
 }
