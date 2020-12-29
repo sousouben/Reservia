@@ -77,5 +77,27 @@
     
 }
 
+@media screen and (max-width:736px)
+{
+    .menu
+    {
+        float: none;
+        margin-top: 0px;      
+       
+    }
+    
+    .logo,.sign
+    {
+        display: flex;
+        flex-direction: row;
+        float:left
+    }
+    
+    header li
+    {
+        margin-top: 15%;        
+    }
+}
+
 
    
