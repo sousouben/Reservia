@@ -5,14 +5,40 @@
 {
     font-size: 1rem;
     display: block;
-    font-family: 'Raleway', sans-serif;  
-}
-
+    font-family: 'Raleway', sans-serif;
+ }
 
 #contener
 {
-    margin:3%;   
+    margin:2%;   
 }
+
+/* titre */
+
+h1
+{
+   font-size: 119%; 
+}
+
+h3
+{
+    display: block;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+h6
+{
+    visibility: hidden;
+    margin: 0px;
+    width: 0%;
+}
+
+h5
+{
+    font-size: 85%;
+}
+
 
 /* header
  ***************/
@@ -28,7 +54,6 @@
 {   
     display: flex;
     flex-direction: row; 
-    justify-content: flex-end;
     float: right;
 }
 
@@ -57,28 +82,26 @@ header li
 
 /* section filtres
  ********************/
-
-h1
+.barre-de-recherche
 {
-   font-size: 119%; 
+    display:flex;
+    flex-direction: row;
 }
 
 .cherch
 {
      display: flex;
-   flex-wrap: nowrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     background-color: white;
-    border-radius: 20px/10px;
     width: 100%;
-    padding: 3%;
+    padding: 2%;
 }
-
 
 .local
 {
-     background-color:#F2F2F2 ;
-      color: white;
+    background-color:#F2F2F2 ;
+    color: white;
     border-radius: 15px 0px 0px 15px;
     border: none;
     height: 49px; 
@@ -86,13 +109,12 @@ h1
     color: black;
 }
 
-
 #ville
 {
     border-top:2px solid #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
     height: 45px;
-    width: 18%;
+    width: 54%;
     text-align: center;
     font-weight: bold;
     border-right: none;
@@ -103,19 +125,12 @@ h1
 .search
 {
     background-color:#0065FC ;
-      color: white;
+    color: white;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    height: 49px; 
-   
+    height: 49px;    
 }
 
-h3
-{
-    display: block;
-    font-weight: bold;
-    margin-right: 30px;
-}
 
 .filter
 {
@@ -144,7 +159,6 @@ h3
     border-radius: 50px;   
 }
 
-
 .filtre:hover
 {
    background-color: #0065FC;
@@ -172,23 +186,21 @@ a
 {
     display:flex;
     flex-direction: row;
-   padding: 10px; 
-   
+   padding: 10px;   
 }
 
 .info-i
 {
     border-radius: 50%;
-   height: 16px;
-    width: 20px;
-    border: 1px solid  #F2F2F2;
+    height: 16px;
+    width:2%;
+    border: 2px solid  #F2F2F2;
     text-align: center;
     color: #0065FC;
-    margin-right: 15px;
-    font-size: 10px;  
+    margin-right: 2%;
+    font-size: 63%;  
     display: inline-block;
-    padding-top: 3px;
-    
+    padding-top: 5px;    
 }
 
 /* section hebergement et populaires
@@ -207,20 +219,12 @@ a
 
 .room-s
 {
-  display: flex;
-  background-color: #F2F2F2;
+    display: flex;
+    background-color: #F2F2F2;
     border-radius: 15px;
-    width: 70%;
-    height: 481px;
     padding: 2%;
-flex-direction: row;
-}
-
-h6
-{
-    visibility: hidden;
-    margin: 0px;
-    width: 0%;
+    box-sizing: border-box;
+    width: 70%;
 }
 
 h2
@@ -264,8 +268,6 @@ h2
     margin: 2%;
     text-align: center;
     width: 27%;
-    height: 147px;
-
 }
 
 .chambre-1
@@ -296,8 +298,7 @@ h2
 }
 
 .chambre-4
-{
-    
+{    
     background-image: url(hebergements/4_small/hotel%20mer.jpg);
     background-position: top;
     background-size: 100% 50%;
@@ -342,13 +343,13 @@ h2
 .populaire
 {
     display: flex;
-  background-color: #F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 15px;
     width: 28%;
-    height: 481px;
     padding: 2%;
-flex-direction: column;
-    margin-left: 2%;   
+    flex-direction: column;
+    margin-left: 1%;
+    box-sizing: border-box;
    
 }
 
