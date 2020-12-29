@@ -9,6 +9,12 @@
         width: 100%;
         margin: 2px;           
     } 
+    
+    .sign
+    {
+        display: flex;
+        
+    }
   
     .list-filter
     {
@@ -33,7 +39,7 @@
     
     .chambre-1, .chambre-2, .chambre-3, .chambre-4, .chambre-5, .chambre-6
     {
-        width: 100%;
+        width: 92%;
     }
     
     .room-s
