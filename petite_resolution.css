@@ -12,7 +12,7 @@
     
     .sign
     {
-        display: flex;
+        display: flex;      
         
     }
   
@@ -21,15 +21,31 @@
         width: 100%;        
     }
     
-    .room-s
+    header a:hover
     {
-        width: 100%;
+    border-bottom: 2px solid #0065FC;
+    padding: 30px;
+    border-top: 0px;    
+    }
+    
+    header a 
+    {
+        display: flex;
+        flex-direction: row;
     }
     
     #main
     {
-        display: block;
-    }
+        display:flex;
+        flex-direction: column-reverse;
+    } 
+    
+    .populaire
+    {
+        width: 100%;
+        border-radius: 0px;
+        height: 589px;
+    }   
     
     .container-list-chambre
     {
@@ -39,19 +55,23 @@
     
     .chambre-1, .chambre-2, .chambre-3, .chambre-4, .chambre-5, .chambre-6
     {
-        width: 92%;
+        width: 86%;
+        display: flex;
+        flex-direction: column;
     }
     
     .room-s
     {
         display: block;
         width: 100%;
-    }   
+        background-color: white;
+    } 
     
-    .populaire
+    .room-s1 ,.room-s2 ,.room-s3 ,.room-s4 ,.room-s5 ,.room-s6
     {
-        width: 100%;
+        margin-top: 23%;
     }
+    
     
     .wrapper
     {
@@ -59,10 +79,27 @@
         display: block;
     }
     
+    
+    .act1 img,.act4 img
+    {
+        width: 100%;
+        height: 156px;        
+    }
+    
+    .one, .four
+    {
+        width: 100%;
+        height: 162px;
+        margin-bottom: 5%;
+    
+    }
+    
     footer
     {
         display: block;
-        width: 100%;       
+        width: 100%;
+        font-size: 120%;
+        padding-left: 5%;
     }
     
     footer nav 
@@ -73,7 +110,8 @@
     footer h3
     {
         text-align: left;
-    }   
+    } 
+    
     
 }
 
@@ -97,6 +135,7 @@
     {
         margin-top: 15%;        
     }
+  
 }
 
 
