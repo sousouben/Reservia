@@ -12,16 +12,18 @@
    font-size: 99%; 
 }
 
-#contener
-{
-    margin:2%;   
-}
-
 /* titre */
 
 h1
 {
    font-size: 119%; 
+}
+
+h2
+{
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
 }
 
 h3
@@ -31,13 +33,6 @@ h3
     margin-right: 30px;
 }
 
-h6
-{
-    visibility: hidden;
-    margin: 0px;
-    width: 0%;
-}
-
 h5
 {
     font-weight: bold;
@@ -45,11 +40,16 @@ h5
     margin-top: 0px;
 }
 
-
-
+h6
+{
+    visibility: hidden;
+    margin: 0px;
+    width: 0%;
+}
 
 /* header
  ***************/
+
 header
 {
     display: block;
@@ -99,7 +99,8 @@ header li
 }
 
 /* section filtres
- ********************/
+ *******************/
+
 .barre-de-recherche
 {
     display:flex;
@@ -228,8 +229,8 @@ a
     display:flex;
     flex-direction: row;
     margin: auto;   
-  
 }
+
 #main p
 {
     margin-bottom: 0px;
@@ -249,17 +250,10 @@ a
     width: 70%;
 }
 
-h2
-{
-    display: block;
-    font-weight: bold;
-    font-size: 100%;
-   }
-
 .rooms1
 {
     width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/auberge%20cannebi%C3%A8re.jpg);
     background-position: top;
     background-size: cover;
@@ -270,7 +264,7 @@ h2
 .rooms2
 {
    width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/hotel%20port.jpg);
     background-position: top;
     background-size: cover;
@@ -281,7 +275,7 @@ h2
 .rooms3
 {
     width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/mouette.jpg);
     background-position: top;
     background-size: cover;
@@ -292,7 +286,7 @@ h2
 .rooms4
 {
     width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/hotel%20mer.jpg);
     background-position: top;
     background-size: cover;
@@ -303,7 +297,7 @@ h2
 .rooms5
 {
     width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/panier.jpg);
     background-position: top;
     background-size: cover;
@@ -314,7 +308,7 @@ h2
 .rooms6
 {
     width:100%;
-    height: 5rem;
+    height: 7rem;
     background-image: url(hebergements/4_small/amina.jpg);
     background-position: top;
     background-size: cover;
@@ -324,12 +318,9 @@ h2
 
 .room-s1, .room-s2, .room-s3, .room-s4, .room-s5, .room-s6
 {
-    display: block;
     font-size: 88%;
-    justify-content: center;
-    flex-wrap: wrap;
-    white-space: nowrap;
-    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
 }
 
 .room
@@ -355,8 +346,7 @@ h2
     box-shadow: 10px 10px 10px 10px #F2F2F2;
     margin: 2%;
     text-align: left;
-    width: 27%;
-   
+    width: 27%;  
 }
 
 .more   
@@ -399,9 +389,9 @@ h2
 .chambre-best1
 {    
     background-image: url(hebergements/4_small/hotel%20soleil%20matin.jpg);
-    background-position: left;
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
+    
+    background-size: cover;
+   
 }
 
 .chambre-best2
@@ -446,19 +436,27 @@ h2
 /*section activité
 **************/
 
-figure
+.act1
 {
-    text-align: center
+    background-image: url(activites/4_small/vieux%20port.jpg);
+    background-size: cover;
+     width:14rem;
+    height: 23rem;
+    border-radius: 15px 15px 0px 0px;
 }
-.container figure
-{
-    display: block;    
-    border:1px solid white;
-    border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;  
-    width: 84%;
 
+.titre1
+{
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 2px #F2F2F2;
+    display: block;    
+    border:1px solid #F2F2F2;
+    border-radius:0px 0px 15px 15px;     
+    width: 14rem;
+    height: 2rem;
 }
+
 
 .act1 img,.act4 img
 {  
