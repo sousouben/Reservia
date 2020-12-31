@@ -340,13 +340,13 @@ a
 .chambre-1,.chambre-2,.chambre-3,.chambre-4,.chambre-5,.chambre-6
 {
     display:block;   
-    background-color:white;
     border-radius: 15px;
     border: 5px solid white;
     box-shadow: 10px 10px 10px 10px #F2F2F2;
-    margin: 2%;
+    margin: 1%;
     text-align: left;
-    width: 27%;  
+    width: 29%; 
+    background-color: white;
 }
 
 .more   
@@ -389,9 +389,9 @@ a
 .chambre-best1
 {    
     background-image: url(hebergements/4_small/hotel%20soleil%20matin.jpg);
-    
-    background-size: cover;
-   
+    background-position: left;
+    background-size: 50% 100%;
+    background-repeat: no-repeat; 
 }
 
 .chambre-best2
@@ -423,6 +423,7 @@ a
     width: 90%;    
     height: 136px;  
     box-sizing: border-box;
+ 
 }
 
 .star
@@ -436,63 +437,104 @@ a
 /*section activité
 **************/
 
+.one ,.four
+{
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 3px #F2F2F2;
+    display: block;    
+    border:1px solid #F2F2F2;
+    border-radius:15px 15px 15px 15px;     
+    width: 14rem;
+    height: 25rem;
+}
+
+.two, .three, .five, .six 
+{
+   text-align: left;
+    background-color: white;
+    box-shadow: 2px 3px #F2F2F2;
+    display: block;    
+    border:1px solid #F2F2F2;
+    border-radius:15px 15px 15px 15px;     
+    width: 14rem;
+    height: 12rem; 
+}
+
 .act1
 {
     background-image: url(activites/4_small/vieux%20port.jpg);
     background-size: cover;
-     width:14rem;
+    width:14rem;
     height: 23rem;
     border-radius: 15px 15px 0px 0px;
 }
 
-.titre1
+.act4
 {
-    text-align: left;
-    background-color: white;
-    box-shadow: 2px 2px #F2F2F2;
-    display: block;    
-    border:1px solid #F2F2F2;
-    border-radius:0px 0px 15px 15px;     
+    background-image: url(activites/4_small/parc%20national%20calanques.jpg);
+    background-size: cover;
     width: 14rem;
-    height: 2rem;
-}
-
-
-.act1 img,.act4 img
-{  
+    height: 23rem;
     border-radius: 15px 15px 0px 0px;
-    border: solid 1px #F2F2F2;
-    display: block;
-   width: 100%;
- height:371px;  
-  
 }
 
-.act2 img,.act3 img,.act5 img,.act6 img
+.act2
 {
-    display: block;
-    border-radius: 15px 15px 0px 0px;
-    width:100%;
-    height:156px; 
-    border: solid 1px #F2F2F2;
+  background-image:url(activites/4_small/fort%20de%20pom%C3%A9gue.jpg);
+    background-size: cover;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 15px 15px 0px 0px;  
+}
 
+.act3
+{
+  background-image:url(activites/4_small/iles%20frioul.jpg);
+    background-size: cover;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 15px 15px 0px 0px;    
+}
+
+.act5
+{
+   background-image:url(activites/4_small/notre%20dame%20de%20la%20garde.jpg);
+    background-size: cover;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 15px 15px 0px 0px;       
+}
+
+.act6
+{
+    background-image:url(activites/4_small/parc%20longchamp.jpg);
+    background-size: cover;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 15px 15px 0px 0px;      
+}
+
+.titre1, .titre2, .titre3, .titre4, .titre5, .titre6
+{
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 #activity
 {
    
-    display: flex;
+    display: block;
     background-color: white;
     padding: 2%;
-    flex-wrap: wrap;
-    margin: auto;
+    margin:auto;
 }
 
 .wrapper
 {
-display: flex;
-flex-direction: row;
-grid-auto-rows: min-content;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+  
 }
 
 /* footer
