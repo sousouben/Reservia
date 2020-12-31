@@ -299,7 +299,6 @@ a
     width:100%;
     height: 7rem;
     background-image: url(hebergements/4_small/panier.jpg);
-    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0px 0px;  
@@ -309,9 +308,9 @@ a
 {
     width:100%;
     height: 7rem;
-    background-image: url(hebergements/4_small/amina.jpg);
+    background-image:url("hebergements/4_small/amina.jpg");
+    background-size:cover;
     background-position: top;
-    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0px 0px;  
 }
@@ -374,7 +373,7 @@ a
     width: 35%;
     padding: 2%;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 2%;
     box-sizing: border-box;
    
 }
@@ -383,7 +382,8 @@ a
 {
     display: block;
     margin-left: 54%;
-    font-size: 79%;        
+    font-size: 79%; 
+    margin-top: 5%;
 }
 
 .chambre-best1
@@ -643,7 +643,7 @@ footer a:hover
     
     .room-s1 ,.room-s2 ,.room-s3 ,.room-s4 ,.room-s5 ,.room-s6
     {
-        margin-top: 23%;
+        
     }
     
     
