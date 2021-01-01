@@ -6,6 +6,11 @@
     display: block;      
  }
 
+#contener
+{
+    margin: 2%;
+}
+
 *
 {
    font-family: 'Raleway', sans-serif; 
@@ -486,6 +491,13 @@ a
     border-radius: 15px 15px 0px 0px;
 }
 
+.activ2, .activ5
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .act2
 {
     background-image:url(activites/4_small/fort%20de%20pom%C3%A9gue.jpg);
@@ -541,13 +553,14 @@ a
     margin:auto;
 }
 
-.wrapper
+.grid
 {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 10px;
-    
-  
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 /* footer
@@ -586,8 +599,9 @@ footer a:hover
     color: #0065FC;
 }
 
-/*@media
-**********************/
+/******************************************************************************************************
+@media
+*******************************************************************************************************/
 
 @media (max-width:768px)
 {
@@ -597,10 +611,11 @@ footer a:hover
         margin: 2px;           
     } 
     
-    .sign
-    {
-        display: flex;      
+/*header*************/
         
+    .logo,.sign
+    {
+       float:left
     }
   
     .list-filter
@@ -612,14 +627,40 @@ footer a:hover
     {
     border-bottom: 2px solid #0065FC;
     padding: 30px;
-    border-top: 0px;    
-    }
+    border-top: 0px; 
+   }   
     
-    header a 
+    
+    header ul
     {
         display: flex;
         flex-direction: row;
     }
+    
+    .sign:hover
+    {
+       border:none;    
+    }
+    
+    header li
+    {
+        margin-top: 15%;        
+    }
+    
+    header
+    {
+        border-bottom: 2px solid #F2F2F2;
+        height: 123px;
+    }
+    
+    .menu
+    {
+        float: none;
+        margin-top: 0px;      
+       
+    }
+ 
+/*hebergement********************/   
     
     #main
     {
@@ -654,26 +695,23 @@ footer a:hover
         background-color: white;
     } 
     
-    .wrapper
-    {
-        width: 100%;
-        display: block;
+/*activité**********************/
+    
+    .grid
+    {       
+        grid-template-rows: auto;
+        grid-template-columns: 0px;
+        grid-gap: 0px;
+        grid-row-gap: 12px;
     }
     
-    
-    .act1 img,.act4 img
+    .activ2, .activ5
     {
-        width: 100%;
-        height: 156px;        
+        grid-row-gap: 12px;
     }
     
-    .one, .four
-    {
-        width: 100%;
-        height: 162px;
-        margin-bottom: 5%;
-    
-    }
+        
+/*footer***********************************/    
     
     footer
     {
@@ -691,33 +729,12 @@ footer a:hover
     footer h3
     {
         text-align: left;
-    } 
-    
+    }    
     
 }
 
-@media (max-width:736px)
-{
-    .menu
-    {
-        float: none;
-        margin-top: 0px;      
-       
-    }
-    
-    .logo,.sign
-    {
-        display: flex;
-        flex-direction: row;
-        float:left
-    }
-    
-    header li
-    {
-        margin-top: 15%;        
-    }
-  
-}
+
+
 
 
    
