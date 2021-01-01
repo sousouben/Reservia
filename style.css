@@ -58,8 +58,9 @@ h6
 header
 {
     display: block;
-    margin: 2%;
-    width: 94%;
+    margin: auto;
+    width: 100%;
+    
 }
 
 .sign
@@ -613,14 +614,24 @@ footer a:hover
     
 /*header*************/
         
-    .logo,.sign
+    .logo
     {
-       float:left
+       float:left;
+    }
+    
+    .sign
+    {
+        float: right;
     }
   
     .list-filter
     {
         width: 100%;        
+    }
+    
+    header
+    {
+        width: 100%;
     }
     
     header a:hover
@@ -647,17 +658,20 @@ footer a:hover
         margin-top: 15%;        
     }
     
-    header
+    header ul
     {
         border-bottom: 2px solid #F2F2F2;
-        height: 123px;
+        height: 109px;
+       
     }
     
     .menu
     {
         float: none;
-        margin-top: 0px;      
-       
+        margin-top: 0px; 
+        display: flex;
+       flex-direction: row;
+        justify-content: center;
     }
  
 /*hebergement********************/   
