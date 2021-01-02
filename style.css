@@ -47,9 +47,8 @@ h5
 
 h6
 {
-    visibility: hidden;
-    margin: 0px;
-    width: 0%;
+    visibility: collapse;
+   display: none;
 }
 
 /* header
@@ -155,6 +154,12 @@ header li
     border-radius: 0px 15px 15px 0px;
     border: none;
     height: 49px;    
+}
+
+.searchicon 
+{
+    visibility: collapse;
+    display: none;
 }
 
 .filter
@@ -685,6 +690,18 @@ footer a:hover
         display: flex;
        flex-direction: row;
         justify-content: center;
+    }
+    
+    .searchtext
+    {
+        visibility: collapse;
+        display: none;
+    }
+    
+    .searchicon
+    {
+        visibility: visible;
+        display: flex;
     }
     
   
