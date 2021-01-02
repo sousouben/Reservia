@@ -68,7 +68,8 @@ header
     color:#0065FC;  
     font-weight: bold;
     padding: 10px;
-    padding-top: 3%;   
+    padding-top: 3%;  
+    margin-left: 0%;   
 }
 
 .menu 
@@ -333,6 +334,7 @@ a
 {
     display: block;
     margin-top: 2%;
+    margin-left: 0%;
 }
 
 .container-list-chambre
@@ -341,6 +343,7 @@ a
     flex-wrap: wrap;
     margin-top: 23px;
     width: 100%;
+    margin: auto;
 }
 
 .chambre-1,.chambre-2,.chambre-3,.chambre-4,.chambre-5,.chambre-6
@@ -371,6 +374,11 @@ a
     justify-content: center;
     margin-top: 23px;
   
+}
+
+.container-pop
+{
+    margin-left: 0%;
 }
 .populaire
 {
@@ -455,6 +463,8 @@ a
     border-radius:15px 15px 15px 15px;     
     width: 14rem;
     height: 25rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
 .two, .three, .five, .six 
@@ -554,11 +564,11 @@ a
     margin:auto;
 }
 
-.grid
+.good
 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     height: auto;
     margin: auto;
@@ -622,7 +632,9 @@ footer a:hover
     .sign
     {
         float: right;
-    }
+        position: absolute;
+        margin-left: 55%;
+     }
   
     .list-filter
     {
@@ -662,6 +674,7 @@ footer a:hover
     {
         border-bottom: 2px solid #F2F2F2;
         height: 109px;
+        position: static;
        
     }
     
@@ -673,7 +686,8 @@ footer a:hover
        flex-direction: row;
         justify-content: center;
     }
- 
+    
+  
 /*hebergement********************/   
     
     #main
@@ -687,6 +701,7 @@ footer a:hover
         width: 100%;
         border-radius: 0px;
         height: 589px;
+        margin-left: 0%;
     }   
     
     .container-list-chambre
@@ -709,19 +724,50 @@ footer a:hover
         background-color: white;
     } 
     
+    .container-pop
+    {
+        margin-left: 6%;
+    }
+    
+    .room
+    {
+        margin-left: 6%;
+    }
+    
+    
 /*activité**********************/
     
-    .grid
+    .good
     {       
-        grid-template-rows: auto;
-        grid-template-columns: 0px;
-        grid-gap: 0px;
-        grid-row-gap: 12px;
+        flex-direction: column;
     }
     
     .activ2, .activ5
     {
         grid-row-gap: 12px;
+    }
+    
+    .one, .four
+    {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    
+    .one,.two,.three,.four,.five, .six
+    {
+        width: 100%;
+        height: 11rem;
+    }
+    
+    .act1, .act2, .act3, .act4, .act5, .act6
+    {
+        width: 100%;
+        height: 8rem;
+    }
+    
+    .container
+    {
+        margin:7%;
     }
     
         
