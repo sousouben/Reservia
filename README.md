@@ -1,7 +1,10 @@
 # Reservia
  Mon Projet 2 Openclassrooms
  Transformez une maquette en site web: "Reservia"
+ Version Desktop:
  https://github.com/sousouben/Reservia/blob/Souad/Desktop%20-%201.png
+ version mobile:
+ https://github.com/sousouben/Reservia/blob/Souad/iPhone%208%20-%201.png
  
  ## Cahier des charges
  -  Intégrer la maquette responsive en HTML et CSS (sans framework)
