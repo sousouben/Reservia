@@ -14,7 +14,7 @@
 *
 {
    font-family: 'Raleway', sans-serif; 
-   font-size: 99%; 
+   font-size: 100%; 
 }
 
 /* titre */
@@ -132,6 +132,7 @@ header li
     height: 49px; 
     width: 45px;
     color: black;
+    margin-right: -2%;
 }
 
 #ville
@@ -153,7 +154,8 @@ header li
     color: white;
     border-radius: 0px 15px 15px 0px;
     border: none;
-    height: 49px;    
+    height: 49px; 
+    margin-left: -5%;
 }
 
 .searchicon 
@@ -385,6 +387,7 @@ a
 {
     margin-left: 0%;
 }
+
 .populaire
 {
     display: flex;
@@ -451,7 +454,7 @@ a
     display: flex;
     text-align: left;
     color:#0065FC;
-    font-size: 50%;    
+    font-size: 79%;    
    }
 
 /*section activité
@@ -649,6 +652,7 @@ footer a:hover
     header
     {
         width: 100%;
+        border-bottom: 2px solid #F2F2F2;
     }
     
     header a:hover
@@ -663,6 +667,8 @@ footer a:hover
     {
         display: flex;
         flex-direction: row;
+        height: 94px;
+        position: static;
     }
     
     .sign:hover
@@ -673,15 +679,7 @@ footer a:hover
     header li
     {
         margin-top: 15%;        
-    }
-    
-    header ul
-    {
-        border-bottom: 2px solid #F2F2F2;
-        height: 109px;
-        position: static;
-       
-    }
+    }    
     
     .menu
     {
@@ -702,8 +700,19 @@ footer a:hover
     {
         visibility: visible;
         display: flex;
+        margin-left: 26%;
     }
     
+    .search 
+    {
+        width: 16%;
+        border-radius: 15px;
+    }
+    
+    .filtre
+    {
+        margin-right: 1%;
+    }
   
 /*hebergement********************/   
     
@@ -757,11 +766,6 @@ footer a:hover
     .good
     {       
         flex-direction: column;
-    }
-    
-    .activ2, .activ5
-    {
-        grid-row-gap: 12px;
     }
     
     .one, .four
