@@ -12,7 +12,7 @@
  - Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
  - Les filtres ne seront pas fonctionnels pour cette version, en revanche, il faut qu’ils changent d’apparence au survol. 
  - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
- - Le site devra également être adapté aux tablettes. 
+ - Le site devra également être adapté aux téléphones mobiles. 
  - Versionner le code sur GitHub ou GitLab.
  - Repository doit être accessible.
  - Page web hébergée en ligne sur GitHub Pages ou GitLab Pages.

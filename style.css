@@ -21,7 +21,8 @@
 
 h1
 {
-   font-size: 119%; 
+   font-size: 119%;
+    margin-bottom: 0%;
 }
 
 h2
@@ -29,6 +30,13 @@ h2
     display: block;
     font-weight: bold;
     font-size: 100%;
+}
+
+.container-pop h2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h3
@@ -56,7 +64,9 @@ h6
 
 header
 {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: auto;
     width: 100%;
     
@@ -86,6 +96,7 @@ header a:hover
 header a
 {
     padding: 15px;
+    margin-left: 12%;
 }
 
 ul
@@ -120,7 +131,14 @@ header li
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 2%;
+    padding: 0%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container-cherch p
+{
+    margin-bottom: 0%;
 }
 
 .local
@@ -167,6 +185,7 @@ header li
 .filter
 {
     display: flex;
+    margin-top: 2%;
     
 }
 
@@ -188,7 +207,8 @@ header li
     padding-right: 3%;
     margin-right: 5%;
     line-height: inherit;
-    border-radius: 50px;   
+    border-radius: 50px; 
+    font-weight: bold;
 }
 
 .filtre:hover
@@ -262,6 +282,7 @@ a
     padding: 2%;
     box-sizing: border-box;
     width: 70%;
+    margin-left: 1%;
 }
 
 .rooms1
@@ -383,11 +404,6 @@ a
   
 }
 
-.container-pop
-{
-    margin-left: 0%;
-}
-
 .populaire
 {
     display: flex;
@@ -406,7 +422,7 @@ a
     display: block;
     margin-left: 54%;
     font-size: 79%; 
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .chambre-best1
@@ -487,6 +503,7 @@ a
     border-radius:15px 15px 15px 15px;     
     width: 14rem;
     height: 12rem; 
+    margin-bottom: 0%;
 }
 
 .act1
@@ -559,8 +576,10 @@ a
 
 .titre1, .titre2, .titre3, .titre4, .titre5, .titre6
 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 5%;
+    font-weight: bold;
+    font-size: 79%;
 }
 
 #activity
@@ -618,6 +637,8 @@ footer a:hover
     color: #0065FC;
 }
 
+
+
 /******************************************************************************************************
 @media
 *******************************************************************************************************/
@@ -635,6 +656,7 @@ footer a:hover
     .logo
     {
        float:left;
+        position: absolute;
     }
     
     .sign
@@ -642,7 +664,13 @@ footer a:hover
         float: right;
         position: absolute;
         margin-left: 55%;
+        padding-top: 5%;
      }
+    
+    .logo .sign
+    {
+        display: block;
+    }
   
     .list-filter
     {
@@ -651,7 +679,7 @@ footer a:hover
     
     header
     {
-        width: 100%;
+        flex-direction: column;
         border-bottom: 2px solid #F2F2F2;
     }
     
@@ -684,9 +712,7 @@ footer a:hover
     .menu
     {
         float: none;
-        margin-top: 0px; 
-        display: flex;
-       flex-direction: row;
+        flex-direction: row;
         justify-content: center;
     }
     
@@ -712,6 +738,17 @@ footer a:hover
     .filtre
     {
         margin-right: 1%;
+    }
+    
+    #ville
+    {
+        width: 71%;  
+    
+    }
+    
+    .filter
+    {
+        flex-direction: column;
     }
   
 /*hebergement********************/   
@@ -741,6 +778,7 @@ footer a:hover
         width: 86%;
         display: flex;
         flex-direction: column;
+        margin: 3%;
     }
     
     .room-s
@@ -749,11 +787,6 @@ footer a:hover
         width: 100%;
         background-color: white;
     } 
-    
-    .container-pop
-    {
-        margin-left: 6%;
-    }
     
     .room
     {
@@ -778,6 +811,7 @@ footer a:hover
     {
         width: 100%;
         height: 11rem;
+        margin-bottom: 3%;
     }
     
     .act1, .act2, .act3, .act4, .act5, .act6
@@ -814,7 +848,22 @@ footer a:hover
     
 }
 
+@media (max-width:375px)
+{
+    #ville
+    {
+      width: 71%;  
+    }
+}
 
+@media (max-width:375px)
+{
+    h3
+    {
+       margin-right: 14px; 
+    }
+    
+}
 
 
 
