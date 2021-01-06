@@ -201,7 +201,7 @@ header li
 .filtre
 {
     box-sizing: border-box;
-    border: 2px solid #F2F2F2;
+    border: 2px solid #d9d9d9;
     display: flex;
     flex-direction: row;
     padding-right: 3%;
@@ -379,7 +379,7 @@ a
     display:block;   
     border-radius: 15px;
     border: 5px solid white;
-    box-shadow: 10px 10px 10px 10px #F2F2F2;
+    box-shadow: 10px 10px 10px 10px #d9d9d9;
     margin: 1%;
     text-align: left;
     width: 29%; 
@@ -420,7 +420,7 @@ a
 .pop1, .pop2, .pop3
 {
     display: block;
-    margin-left: 54%;
+    margin-left: 44%;
     font-size: 79%; 
     margin-top: 3%;
 }
@@ -429,7 +429,7 @@ a
 {    
     background-image: url("images/hebergements/4_small/hotel%20le%20soleil%20du%20matin.jpg");
     background-position: left;
-    background-size: 50% 100%;
+    background-size: 40% 100%;
     background-repeat: no-repeat; 
 }
 
@@ -437,7 +437,7 @@ a
 {
     background-image: url("images/hebergements/4_small/au%20coeur%20de%20l'eau.jpg");
     background-position: left;
-    background-size: 50% 100%;
+    background-size: 40% 100%;
     background-repeat: no-repeat;
 }
 
@@ -446,7 +446,7 @@ a
    
     background-image: url("images/hebergements/4_small/hotel%20tout%20bleu%20et%20blanc.jpg");
     background-position: left;
-    background-size: 50% 100%;
+    background-size: 40% 100%;
     background-repeat: no-repeat;
 }
 
@@ -456,12 +456,13 @@ a
     background-color: white;
     border-radius: 15px;
     border: 5px solid white;
-    box-shadow: 10px 10px 10px 10px #F2F2F2;
+    box-shadow: 10px 10px 10px 10px #d9d9d9;
     margin: 2%;
     text-align: left;
     width: 90%;    
-    height: 136px;  
+    height: 122px;  
     box-sizing: border-box;
+    margin-bottom: 5%;
  
 }
 
@@ -471,7 +472,19 @@ a
     text-align: left;
     color:#0065FC;
     font-size: 79%;    
-   }
+}
+
+.starcover
+{
+    color: #d9d9d9;
+    
+}
+
+.bourse
+{
+    margin-right: 9%;
+}
+
 
 /*section activité
 **************/
@@ -655,7 +668,7 @@ footer a:hover
         
     .logo
     {
-       float:left;
+        float:left;
         position: absolute;
     }
     
@@ -672,11 +685,7 @@ footer a:hover
         display: block;
     }
   
-    .list-filter
-    {
-        width: 100%;        
-    }
-    
+   
     header
     {
         flex-direction: column;
@@ -695,7 +704,7 @@ footer a:hover
     {
         display: flex;
         flex-direction: row;
-        height: 94px;
+        height: 96px;
         position: static;
     }
     
@@ -715,6 +724,8 @@ footer a:hover
         flex-direction: row;
         justify-content: center;
     }
+    
+    /************filtre*/
     
     .searchtext
     {
@@ -738,6 +749,7 @@ footer a:hover
     .filtre
     {
         margin-right: 1%;
+        margin-bottom: 3%;
     }
     
     #ville
@@ -750,6 +762,12 @@ footer a:hover
     {
         flex-direction: column;
     }
+    
+     .list-filter
+    {
+        width: 100%;        
+    }
+    
   
 /*hebergement********************/   
     
@@ -763,7 +781,7 @@ footer a:hover
     {
         width: 100%;
         border-radius: 0px;
-        height: 589px;
+        height: 522px;
         margin-left: 0%;
     }   
     
@@ -791,6 +809,11 @@ footer a:hover
     .room
     {
         margin-left: 6%;
+    }
+    
+    .chambre-best1, .chambre-best2, .chambre-best3
+    {
+        margin-bottom: 2%;
     }
     
     
