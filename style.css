@@ -30,6 +30,7 @@ h2
     display: block;
     font-weight: bold;
     font-size: 100%;
+    margin-left: 2%;
 }
 
 .container-pop h2
@@ -44,6 +45,11 @@ h3
     display: block;
     font-weight: bold;
     margin-right: 30px;
+}
+
+#activity h3
+{
+    margin-left: 5%;
 }
 
 h5
@@ -365,7 +371,6 @@ a
 .room
 {
     display: block;
-    margin-top: 2%;
     margin-left: 0%;
 }
 
@@ -393,6 +398,7 @@ a
 .more   
 {
     font-weight: bold;
+    margin-left: 2%;
 }
 
 
@@ -795,6 +801,11 @@ footer a:hover
         flex-direction: column-reverse;
     } 
     
+    .more
+    {
+        margin-left: 1%;
+    }
+    
     .populaire
     {
         width: 100%;
@@ -832,10 +843,27 @@ footer a:hover
     .chambre-best1, .chambre-best2, .chambre-best3
     {
         margin-bottom: 2%;
+        margin-left: 9%;
+        width: 81%;
+    }
+    
+    .room h2
+    {
+        margin-left: 4%;
+    }
+    
+    .container-pop h2
+    {
+        margin-left: 10%;
     }
     
     
 /*activité**********************/
+    
+    #activity h3
+    {
+        margin-left: 8%;
+    }
     
     .good
     {       
