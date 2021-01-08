@@ -33,6 +33,11 @@ h2
     margin-left: 2%;
 }
 
+.room h2
+{
+    margin-bottom: 4%;
+}
+
 .container-pop h2
 {
     display: flex;
@@ -45,11 +50,6 @@ h3
     display: block;
     font-weight: bold;
     margin-right: 30px;
-}
-
-#activity h3
-{
-    margin-left: 5%;
 }
 
 h5
@@ -618,7 +618,7 @@ a
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     height: auto;
     margin: auto;
@@ -660,6 +660,11 @@ footer a:hover
     color: #0065FC;
 }
 
+.navbar3
+{
+    margin-right: 22%;
+}
+
 
 
 /******************************************************************************************************
@@ -670,6 +675,11 @@ footer a:hover
     #contener
     {
         margin-right: 5%;
+    }
+    
+    .good
+    {
+        justify-content: space-evenly;
     }
 }
     
@@ -714,12 +724,13 @@ footer a:hover
     {
         flex-direction: column;
         border-bottom: 2px solid #F2F2F2;
+        margin-top: 7%;
     }
     
     header a:hover
     {
     border-bottom: 2px solid #0065FC;
-    padding: 30px;
+    padding: 31px;
     border-top: 0px; 
    }   
     
