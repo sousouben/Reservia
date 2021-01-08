@@ -8,7 +8,7 @@
 
 #contener
 {
-    margin: 2%;
+    margin:0 2%;
 }
 
 *
@@ -244,23 +244,19 @@ a
 
 .info 
 {
-    display:flex;
-    flex-direction: row;
-   padding: 10px;   
+    padding: 10px;   
 }
 
 .info-i
 {
     border-radius: 50%;
-    height: 16px;
-    width:2%;
-    border: 2px solid  #F2F2F2;
+    border: 2px solid  #d9d9d9;
     text-align: center;
     color: #0065FC;
     margin-right: 2%;
     font-size: 63%;  
     display: inline-block;
-    padding-top: 5px;    
+    padding: 5px 7px;    
 }
 
 /* section hebergement et populaires
@@ -693,6 +689,11 @@ footer a:hover
         margin-right: 5%;
     }
     
+    body
+    {
+        margin: 0;
+    }
+    
 }    
     
 @media (max-width:768px)
@@ -719,9 +720,9 @@ footer a:hover
     
     .sign
     {
-        float: right;
-        position: absolute;
-        margin-left: 55%;
+        right: 0;
+        padding-right: 14%;
+        position: absolute;      
         padding-top: 2%;
      }
     
@@ -952,7 +953,7 @@ footer a:hover
 {
     .sign
     {
-       margin-left: 38%;
+      
         padding-top: 3%;
     }
     
@@ -964,11 +965,7 @@ footer a:hover
 
 @media (max-width:414px)
 {
-    .sign
-    {
-        margin-left: 48%;
-    }
-    
+        
     .logo
     {
         margin-left: 10%;
@@ -1002,10 +999,6 @@ footer a:hover
         margin-left: 10%;       
     }
     
-    .sign
-    {
-        margin-left: 48%;
-    }
 }
 
 
@@ -1016,10 +1009,6 @@ footer a:hover
       width: 71%;  
     }
     
-    .sign
-    {
-        margin-left: 55%;
-    }
     
     .logo
     {
