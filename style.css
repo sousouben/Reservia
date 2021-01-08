@@ -508,8 +508,8 @@ a
     box-shadow: 2px 3px 7px 2px #F2F2F2;
     border:1px solid #F2F2F2;
     border-radius:15px 15px 15px 15px;     
-    width: 14rem;
-    height: 25rem;
+    width: 16rem;
+    height: 24rem;
     margin-bottom: 0%;
     margin-top: 0%;
 }
@@ -524,8 +524,8 @@ a
     display: block;    
     border:1px solid #F2F2F2;
     border-radius:15px 15px 15px 15px;     
-    width: 14rem;
-    height: 12rem; 
+    width: 17rem;
+    height: 10rem; 
     margin-bottom: 0%;
 }
 
@@ -535,8 +535,8 @@ a
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width:14rem;
-    height: 23rem;
+    width:16rem;
+    height: 21rem;
     border-radius: 15px 15px 0px 0px;    
 }
 
@@ -545,8 +545,8 @@ a
     background-image: url("images/activites/4_small/parc%20national%20des%20calanques.jpg");
     background-position: center;
     background-size: cover;
-    width: 14rem;
-    height: 23rem;
+    width: 16rem;
+    height: 21rem;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -562,18 +562,18 @@ a
     background-image:url("images/activites/4_small/fort%20de%20pom%C3%A8gue.jpg");
     background-position: center;
     background-size: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 17rem;
+    height: 9rem;
     border-radius: 15px 15px 0px 0px;  
 }
 
 .act3
 {
     background-image:url("images/activites/4_small/ile%20du%20frioul.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 17rem;
+    height: 7rem;
     border-radius: 15px 15px 0px 0px;    
 }
 
@@ -582,8 +582,8 @@ a
    background-image:url("images/activites/4_small/notre%20dame%20de%20la%20garde.jpg");
     background-position: center;
     background-size: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 17rem;
+    height: 7rem;
     border-radius: 15px 15px 0px 0px;       
 }
 
@@ -592,14 +592,30 @@ a
     background-image:url("images/activites/4_small/parc%20longchamps.jpg");
     background-position: center;
     background-size: cover;
-    width: 14rem;
-    height: 10rem;
+    width: 17rem;
+    height: 9rem;
     border-radius: 15px 15px 0px 0px;      
 }
 
+.two 
+{
+    height: 12rem;
+}
+
+.five
+{
+    height: 10rem;
+}
+
+.six
+{
+    height: 12rem;
+}
+
+
 .titre1, .titre2, .titre3, .titre4, .titre5, .titre6
 {
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 5%;
     font-weight: bold;
     font-size: 79%;
@@ -677,12 +693,7 @@ footer a:hover
         margin-right: 5%;
     }
     
-    .good
-    {
-        justify-content: space-evenly;
-    }
-}
-    
+}    
     
 @media (max-width:768px)
 {
@@ -803,6 +814,11 @@ footer a:hover
         width: 100%;        
     }
     
+    .container-cherch
+    {
+        margin-left: 4%;
+    }
+    
   
 /*hebergement********************/   
     
@@ -866,6 +882,16 @@ footer a:hover
     .container-pop h2
     {
         margin-left: 10%;
+    }
+    
+    .act1, .act4, .act5
+    {
+        background-position: top;
+    }
+    
+    .act3
+    {
+        background-position: center;
     }
     
     
