@@ -882,18 +882,7 @@ footer a:hover
     .container-pop h2
     {
         margin-left: 10%;
-    }
-    
-    .act1, .act4, .act5
-    {
-        background-position: top;
-    }
-    
-    .act3
-    {
-        background-position: center;
-    }
-    
+    }  
     
 /*activité**********************/
     
@@ -929,6 +918,11 @@ footer a:hover
     .container
     {
         margin:7%;
+    }
+    
+    .act3
+    {
+        background-position: center;
     }
     
         
@@ -978,6 +972,16 @@ footer a:hover
     .logo
     {
         margin-left: 10%;
+    }
+    
+    .act1, .act4, .act5
+    {
+        background-position: top;
+    }
+    
+    .act3
+    {
+        background-position: center;
     }
 }
     
