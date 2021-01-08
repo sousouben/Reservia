@@ -33,16 +33,12 @@ h2
     margin-left: 2%;
 }
 
-<<<<<<< HEAD
-#container
-=======
 .room h2
 {
     margin-bottom: 4%;
 }
 
 .container-pop h2
->>>>>>> souad
 {
     display: flex;
     flex-direction: row;
@@ -816,7 +812,7 @@ footer a:hover
     
      .list-filter
     {
-        width: 100%;        
+        width: 99%;        
     }
     
     .container-cherch
@@ -959,12 +955,15 @@ footer a:hover
     {
       
         padding-top: 3%;
+       
     }
     
     .logo
     {
         margin-left: 19%;
     }
+    
+    
 }
 
 @media (max-width:414px)
