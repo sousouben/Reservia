@@ -3,7 +3,9 @@
 
  body
 {
-    display: block;      
+    display: block; 
+    width: 100%;
+    overflow-x: hidden;
  }
 
 #contener
@@ -27,10 +29,10 @@ h1
 
 h2
 {
-    display: block;
+    
     font-weight: bold;
     font-size: 100%;
-    margin-left: 2%;
+    
 }
 
 .room h2
@@ -43,6 +45,7 @@ h2
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 6%;
 }
 
 h3
@@ -91,7 +94,6 @@ header
 {
     color:#0065FC;  
     font-weight: bold;
-    padding: 10px;
     padding-top: 3%;  
     margin-left: 0%;   
 }
@@ -146,7 +148,6 @@ header li
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 0%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
@@ -252,7 +253,7 @@ a
 
 .info 
 {
-    padding: 10px;   
+   padding-bottom: 1%;    
 }
 
 .info-i
@@ -274,7 +275,8 @@ a
 {
     display:flex;
     flex-direction: row;
-    margin: auto;   
+    margin: auto;  
+    justify-content: space-around;
 }
 
 #main p
@@ -292,10 +294,9 @@ a
     display: flex;
     background-color: #F2F2F2;
     border-radius: 15px;
-    padding: 2%;
     box-sizing: border-box;
     width: 75%;
-    margin-left: 1%;
+    
 }
 
 .rooms1
@@ -375,7 +376,8 @@ a
 .room
 {
     display: block;
-    margin-left: 0%;
+    margin-left: 6%;
+    margin-bottom: 2%;
 }
 
 .container-list-chambre
@@ -415,6 +417,7 @@ a
     flex-direction: column;
     justify-content: center;
     margin-top: 23px;
+    margin-left: 3%;
   
 }
 
@@ -424,10 +427,9 @@ a
     background-color: #F2F2F2;
     border-radius: 15px;
     width: 35%;
-    padding: 2%;
     flex-direction: column;
-    margin-left: 2%;
     box-sizing: border-box;
+    margin-left: 1%;
    
 }
 
@@ -634,7 +636,6 @@ a
    
     display: block;
     background-color: white;
-    padding: 2%;
     margin:auto;
 }
 
@@ -646,6 +647,7 @@ a
     width: 100%;
     height: auto;
     margin: auto;
+    margin-bottom: 3%;
 }
 
 /* footer
@@ -658,9 +660,9 @@ footer
     display: flex;
    flex-wrap: wrap;
     width:100%;
-    padding: 2%;
     height: 12%;
     justify-content:space-around;
+    padding-bottom: 3%;
  
 }
 
@@ -714,6 +716,9 @@ footer a:hover
     #contener
     {
         margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #body
     {        
@@ -725,17 +730,15 @@ footer a:hover
         
     .logo
     {
-        float:left;
+       
         position: absolute;
-        margin-left: 10%;
+       left: 15%;
     }
     
     .sign
     {
-        right: 0;
-        padding-right: 14%;
-        position: absolute;      
-        padding-top: 2%;
+        right: 15%;
+       position: absolute;     padding-top:  ing-top: 2%;
      }
     
     .logo .sign
@@ -814,7 +817,7 @@ footer a:hover
     
     #ville
     {
-        width: 68%;  
+        width: 50%;  
     
     }
     
@@ -825,12 +828,25 @@ footer a:hover
     
      .list-filter
     {
-        width: 99%;        
+        width: 95%;        
     }
     
     .container-cherch
     {
         margin-left: 4%;
+    }
+    
+    .container-cherch p 
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 95%;
+    }
+    
+    .info-i
+    {
+        padding: 9px 7px;
     }
     
   
@@ -840,6 +856,7 @@ footer a:hover
     {
         display:flex;
         flex-direction: column-reverse;
+        width: 100%;
     } 
     
     .more
@@ -905,6 +922,11 @@ footer a:hover
         margin-left: 8%;
     }
     
+    #activity
+    {
+        width: 100%;
+    }
+    
     .container
     {       
         flex-direction: column;
@@ -936,6 +958,11 @@ footer a:hover
         background-position: center;
     }
     
+    .titre1 ,.titre2 ,.titre3 ,.titre4 ,.titre5 ,.titre6
+    {
+        margin-top: 2%;
+    }
+    
         
 /*footer***********************************/    
     
@@ -943,8 +970,9 @@ footer a:hover
     {
         display: block;
         width: 100%;
-        font-size: 120%;
-        padding-left: 5%;
+        font-size: 100%;
+        padding-left: 4%;
+        padding-top: 1%;
     }
     
     footer nav 
@@ -965,12 +993,13 @@ footer a:hover
     {
       
         padding-top: 3%;
+        right: 21%;
        
     }
     
     .logo
     {
-        margin-left: 19%;
+        left: 23%;
     }
     
     
@@ -981,7 +1010,12 @@ footer a:hover
         
     .logo
     {
-        margin-left: 10%;
+       left: 15%;
+    }
+    .sign
+    {
+        right: 12%;
+        padding-top: 4%;
     }
     
     .act1, .act4, .act5
@@ -1000,16 +1034,17 @@ footer a:hover
     .sign
     {
         padding-top: 5%;
+        right: 11%;
     }
     
     #ville
     {
-        width: 71%;
+        width: 63%;
     }
     
     .logo
     {
-        margin-left: 10%;       
+        left: 14%;       
     }
     
 }
@@ -1019,22 +1054,39 @@ footer a:hover
 {
     #ville
     {
-      width: 71%;  
+      width: 68%;  
     }
     
     
     .logo
     {
-        margin-left: 5%;
+       left: 9%;
+    }
+    .sign
+    {
+        right: 8%;
     }
     
+}
+
+@media (max-width:360px)
+{
+    .sign
+    {
+      right: 6%;  
+    }
 }
 
 @media (max-width:320px)
 {
     .logo
     {
-       margin-left: 0%; 
+      left: 5%; 
+    }
+    
+    .sign
+    {
+        right: 1%;
     }
     
     headerli
@@ -1053,7 +1105,7 @@ footer a:hover
     
     #ville
     {
-        width: 67%;
+        width:62%;
     }
 }
 
